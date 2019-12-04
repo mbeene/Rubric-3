@@ -1,31 +1,5 @@
 // JavaScript Document
 
-var todayIs = prompt("What is today?");
-
-switch(todayIs){
-	case "Monday" :
-		alert ("Boo!");
-		break;
-		
-	case "Tuesday" :
-		alert ("Tuesday is just second Monday");
-		break;
-		
-	case "Wednesday" :
-		alert ("Half way there!");
-		break;
-		
-	case "Thursday" :
-		alert ("Almost Friday!");
-		break;
-		
-	case "Friday" :
-		alert ("It's 5 o'clock somewhere!");
-		break;
-		
-	default :
-		alert ("It's the weekend!");
-}
 
 var myDemo= document.getElementById("parent");
 
@@ -43,11 +17,11 @@ var myComments = document.getElementById("words");
 
 myComments.setAttribute("aligh","right");
 
-myComments.setAttribute("style","color:red");
+myComments.setAttribute("style","color:white");
 
 var newItem = document.createElement("li");
 
-var newText = document.createTextNode("Surprise!");
+var newText = document.createTextNode("Yay!");
 
 myDemo.appendChild(newItem);
 
